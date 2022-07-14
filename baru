@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title bgcolor="Black">Biodata</title>
+</head>
+<body>
+<form action="prosesinput.php" method="get">
+	<p>first name : <input type="text" name="first name" /><br/>
+	Last Name : <input type="text" name="last name" />
+	<p>password : <input type="password" name="password"/>
+	<p>jenis kelamin : <input type=radio name="sex value"="male"/> male <input type=radio name="sex value"="female"/>
+	<p> alamat : <textarea name="alamat" cols="25" rows="4"></textarea>
+
+	<p> Pekerjaan :
+	<select name = Pekerjaan>
+	<option value= Pelajar>Pelajar/Mahasiswa
+	<option value= PNS>Pegawai Negeri Sipil
+	<option value= Karyawan>Karyawan
+	<option value= Wirausaha>Wirausaha
+	</select>
+	<p> Komentar : <textarea name="Komentar">
